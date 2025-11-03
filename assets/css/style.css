@@ -360,19 +360,19 @@ a.theme-btn {
   .theme-btn.style-three,
   a.theme-btn.style-three {
     padding: 11px 40px;
-    color: #104cba;
+    color: #079239;
     background: #e5eef6; }
     .theme-btn.style-three:hover,
     a.theme-btn.style-three:hover {
       color: #e5eef6;
-      background: #104cba; }
+      background: #079239; }
   .theme-btn.style-four,
   a.theme-btn.style-four {
     padding: 11px 35px;
     background: #24323d; }
     .theme-btn.style-four:hover,
     a.theme-btn.style-four:hover {
-      background: #104cba; }
+      background: #079239; }
   .theme-btn.style-five,
   a.theme-btn.style-five {
     padding: 10px 35px;
@@ -622,7 +622,7 @@ a.theme-btn {
     .social-style-one a:last-child {
       margin-right: 0; }
     .social-style-one a:hover {
-      color: #104cba; }
+      color: #079239; }
 
 /** Social Link Style two **/
 .social-style-two {
@@ -673,10 +673,10 @@ a.theme-btn {
     height: 50px;
     border-radius: 50%;
     position: absolute;
-    border: 15px solid #1B76FF;
+    border: 15px solid #079239;
     animation: animate_1 1.73s ease-in-out infinite both reverse; }
   .preloader .theme-loader:after {
-    border-color: #0D47A1;
+    border-color: #079239;
     -webkit-animation-delay: -0.86s;
     animation-delay: -0.86s; }
 
@@ -8034,7 +8034,7 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text, .pricing-header .price {
         font-size: 20px;
         width: 100px;
         height: 100px;
-        background: #104cba;
+        background: #079239;
         line-height: 100px;
         border-radius: 50%;
         text-align: center; }
@@ -8134,7 +8134,7 @@ blockquote {
     left: 0;
     position: absolute;
     top: calc(100% + 10px);
-    background: #104cba; }
+    background: #079239; }
   .comment-title:before {
     content: '';
     width: 5px;
@@ -8230,7 +8230,7 @@ blockquote {
     left: 0;
     position: absolute;
     top: calc(100% + 10px);
-    background: #104cba; }
+    background: #079239; }
   .widget-title:before {
     content: '';
     width: 5px;
@@ -8257,7 +8257,7 @@ blockquote {
       flex: none;
       padding: 5px 15px;
       margin-right: 10px;
-      color: #104cba;
+      color: #079239;
       background: transparent; }
 
 /* Recent Post */
@@ -8288,7 +8288,7 @@ blockquote {
     margin: 0 10px 10px 0; }
     .tags a:hover {
       color: white;
-      background: #104cba; }
+      background: #079239; }
 
 /* Call Action */
 .widget-call-action {
