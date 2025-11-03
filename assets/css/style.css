@@ -610,7 +610,7 @@ a.theme-btn {
     content: "\f00c";
     font-weight: 700;
     margin-right: 20px;
-    color: #104cba;
+    color: #1f9c4c;
     font-family: 'Font Awesome 5 Free'; }
 
 /** Social Link Style One **/
@@ -915,7 +915,7 @@ a.theme-btn {
 .home-eight .list-style-one li:before {
   width: 30px;
   height: 30px;
-  color: #F43336;
+  color: #079239;
   line-height: 30px;
   background: #F8F8F8; }
 
@@ -4891,7 +4891,7 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text, .pricing-header .price {
   transition: 0.5s; }
 
 .header-eight .top-right .social-style-one a:hover i {
-  color: #F43336; }
+  color: #079239; }
 
 .header-eight .menu-btn {
   margin-left: 35px; }
@@ -8367,7 +8367,7 @@ blockquote {
         font-family: 'Font Awesome 5 Free'; }
     .widget-services li:hover a,
     .widget-services li.active a {
-      border-color: #104cba; }
+      border-color: #079239; }
 
 /* Shop Widget */
 .widget-product-item {
@@ -8746,7 +8746,7 @@ blockquote {
     right: 100px;
     opacity: 0.05;
     line-height: 1;
-    color: #030A15;
+    color: #079239;
     content: "\f10e";
     font-weight: 600;
     font-size: 150px;
@@ -11178,7 +11178,7 @@ blockquote {
   opacity: 1;
   background: rgba(255, 255, 255, 0.1); }
   .footer-seven .social-style-two a:hover {
-    background: #F43336; }
+    background: #079239; }
 
 .footer-seven .list-style-three li {
   font-size: 18px;
@@ -11199,7 +11199,7 @@ blockquote {
     -o-transition: 0.5s;
     transition: 0.5s;
     font-weight: 600;
-    color: #F43336;
+    color: #079239;
     font-family: "Font Awesome 5 Free"; }
   .footer-seven .list-style-three li a:hover {
     padding-left: 25px; }
