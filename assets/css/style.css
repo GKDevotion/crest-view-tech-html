@@ -676,7 +676,7 @@ a.theme-btn {
     border: 15px solid #079239;
     animation: animate_1 1.73s ease-in-out infinite both reverse; }
   .preloader .theme-loader:after {
-    border-color: #079239;
+    border-color: #cd17b4;
     -webkit-animation-delay: -0.86s;
     animation-delay: -0.86s; }
 
