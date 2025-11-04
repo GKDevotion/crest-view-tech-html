@@ -34,6 +34,27 @@
     <!--====== Jquery ======-->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
 
+    <style>
+      
+.contact-form-left.bgs-cover.h-100.wow.fadeInLeft.delay-0-2s.animated{
+    animation-name: fadeInLeft;
+    visibility: visible;
+    background-image: url(assets/images/contact/contact-page.jpg);
+}
+
+/* 📱 Show and style background properly on mobile screens */
+@media (max-width: 767px) {
+  .contact-form-left.bgs-cover.h-100.wow.fadeInLeft.delay-0-2s.animated {
+    background-image: url(assets/images/contact/contact-page.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Optional: adjust height or layout for mobile */
+    height: 300px; }/* or auto, depending on your layout */
+  }
+    </style>
+
 </head>
 
 <body>
@@ -176,7 +197,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="contact-form-left bgs-cover h-100 wow fadeInLeft delay-0-2s" style="background-image: url(assets/images/contact/contact-page.jpg)">
+                        <div class="contact-form-left bgs-cover h-100 wow fadeInLeft delay-0-2s">
                             <h2>Leave A Message</h2>
                         </div>
                     </div>
