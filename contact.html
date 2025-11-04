@@ -36,13 +36,13 @@
 
     <style>
       
-.contact-form-left.bgs-cover.h-100.wow.fadeInLeft.delay-0-2s.animated{
+/* .contact-form-left.bgs-cover.h-100.wow.fadeInLeft.delay-0-2s.animated{
     animation-name: fadeInLeft;
     visibility: visible;
     background-image: url(assets/images/contact/contact-page.jpg);
 }
 
-/* 📱 Show and style background properly on mobile screens */
+
 @media (max-width: 767px) {
   .contact-form-left.bgs-cover.h-100.wow.fadeInLeft.delay-0-2s.animated {
     background-image: url(assets/images/contact/contact-page.jpg);
@@ -50,9 +50,33 @@
     background-position: center;
     background-repeat: no-repeat;
 
-    /* Optional: adjust height or layout for mobile */
-    height: 300px; }/* or auto, depending on your layout */
+
+    height: 300px; }
+  } */
+
+  .contact-form-left.bgs-cover.h-100.wow.fadeInLeft.delay-0-2s.animated {
+  animation-name: fadeInLeft;
+  visibility: visible;
+  background-image: url(assets/images/contact/contact-page.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100%; /* ensures section has height */
+}
+
+/* 📱 Fix for mobile view */
+@media (max-width: 767px) {
+  .contact-form-left.bgs-cover.h-100.wow.fadeInLeft.delay-0-2s.animated {
+    display: block !important; /* ensure it’s visible */
+    visibility: visible !important;
+    background-image: url(assets/images/contact/contact-page.jpg) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px; /* adjust this for your design */
   }
+}
+
     </style>
 
 </head>
