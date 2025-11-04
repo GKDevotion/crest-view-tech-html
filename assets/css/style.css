@@ -144,7 +144,7 @@ textarea,
   padding: 16px 30px;
   border-radius: 5px;
   background-color: #fff;
-  border: 1px solid #ffabfc; }
+  border: 1px solid #a30c9c42; }
 
 textarea {
   display: inherit;
@@ -10840,3 +10840,9 @@ blockquote {
   max-width: 200px;
 }
 
+
+.contact-form-left.bgs-cover.h-100.wow.fadeInLeft.delay-0-2s.animated{
+    animation-name: fadeInLeft;
+    visibility: visible;
+    background-image: url(assets/images/contact/contact-page.jpg);
+}
